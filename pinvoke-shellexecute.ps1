@@ -9,7 +9,7 @@
 
 # "Add-Type" adiciona uma classe .NET a uma sessão PowerShell
 # Abaixo temos código C# que será "traduzido para powershell" na função ShellExecute
-# Botando o código em "here-string" para declarar blocos de texto da forma como estão escritas.
+# Botando o código em "here-string" (@" "@) para declarar blocos de texto da forma como estão escritas.
 # Os argumentos dessa função e todas opção possíveis: [1]
 Add-Type -TypeDefinition @"
 using System;
